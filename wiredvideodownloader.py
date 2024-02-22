@@ -3,7 +3,7 @@ import argparse
 from dotenv import load_dotenv
 from pytube import YouTube
 
-load_dotenv()
+load_dotenv() 
 
 VIDEO_STORE_PATH = os.getenv('VIDEO_STORE_PATH')
 AUDIO_STORE_PATH = os.getenv('AUDIO_STORE_PATH')
